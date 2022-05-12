@@ -1,0 +1,156 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 200%;
+}
+
+h1 {
+  color: #66BFBF;
+  font-size: 5.625rem;
+  /* 16px=1em=100% */
+  /* The font-size proprty is used to set the size of the font within the webpage. */
+  font-family: 'Sacramento', cursive;
+  margin: 50px 0 auto 0;
+  /* margin: top-margin right-margin bottom-margin left-margin */
+  /* adds 50px padding from the top */
+}
+
+
+a{
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+text-decoration: none;
+}
+a:hover{
+  color: #EAF6F6;
+}
+
+h2 {
+  color: #66BFBF;
+  /* 16px=1em=100% */
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  /* 40px=2.5rem */
+  font-weight: normal;
+  line-height: 2;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+hr {
+border: dotted #EAF6F6 6px;
+border-bottom: none;
+width:4%;
+margin: 100px auto;
+}
+
+
+
+.Top-Container {
+  background-color: #E4E9F5;
+  position: relative;
+  padding-top: 100px;
+}
+.intro {
+  width:30%;
+  margin:auto;
+  /* use margin:auto; to center the content of a division. */
+  /* text-align: center;  bcoz the text are not having alignment of body but having of div.*/
+}
+.contact-me{
+  width:40%;
+  margin: 40px auto 60px;
+}
+
+.middle-container {
+margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding:50px 0 20px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.profile {
+  margin-top: 10px;
+}
+p{
+  line-height: 2;
+}
+.skill-row {
+  /* line-height: 2; using it now in all the paragraph level */
+  width: 25%;
+  text-align: left;
+  /* sets the width 50% of the screen. */
+  margin: 100px auto 100px auto;
+  /* sets the element in the center of the screen. within that div. */
+}
+
+.code-img {
+  border-radius: 50px;
+  float: left;
+  width: 25%;
+  margin-right: 30px;
+}
+
+.chilli-img {
+  float: right;
+  width: 25%;
+  margin-left: 30px;
+}
+.copyright{
+  color: #EAF6F6;
+  font-size:0.75rem;
+  padding:20px 0;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 40px;
+  right: 300px;
+}
+
+.bottom-cloud {
+  bottom: 300px;
+  left: 250px;
+  position: absolute;
+}
+
+.footer-link {
+  color: #11999E;
+}
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
