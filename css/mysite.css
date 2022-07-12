@@ -91,7 +91,7 @@ p{
   width: 25%;
   text-align: left;
   /* sets the width 50% of the screen. */
-  margin: 100px auto 100px auto;
+  margin: auto;
   /* sets the element in the center of the screen. within that div. */
 }
 
@@ -103,6 +103,7 @@ p{
 }
 
 .chilli-img {
+  border-radius: 50px;
   float: right;
   width: 25%;
   margin-left: 30px;
