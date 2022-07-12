@@ -89,9 +89,9 @@ p{
 .skill-row {
   /* line-height: 2; using it now in all the paragraph level */
   width: 25%;
-  text-align: left;
+  text-align:center;
   /* sets the width 50% of the screen. */
-  margin: auto;
+  margin: 10px;
   /* sets the element in the center of the screen. within that div. */
 }
 
